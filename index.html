@@ -3,19 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio | Geenay Laubscher | Home </title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
   </head>
   <body>
-    <div class= "container">
-      <nav>
+  <div class= "container">
+  <header class="header">
+    <a href="" class="logo">CSS Nav</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="work.html">work</a></li>
+          <li><a href="contact.html">contact</a></li>
+          </ul>
+      </header>
+
+      <!-- <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
-      </nav>
+      </nav> -->
+
       <section>
-        <h2 class="hero">Hello.<br> I'm Geenay Laubscher</h2>
+        <h2 class="hero"><span style="color:#E27074;">Hello.</span><br> I'm Geenay Laubscher</h2>
         <h1 class="tagline">LONDON BASED UX DESIGNER</h1>
       </section>
 
@@ -35,8 +50,8 @@
       </section>
 
       <section>
-        <h2 class="header">UI DESIGN</h2>
-        <h1>Design | Testing| Branding | Interaction</h1>
+        <h2 class="process">UI DESIGN</h2>
+        <h1>Design | Testing | Branding | Interaction</h1>
         <p>I find the right brand language that forms the unique UI elements for each product.
           I make creative design decisions in order to best translate any given UX wireframe into a smooth and intuitive interaction.
           I often communicate my design through animated and interactive prototypes and prepare the necessary files for the development team.</p>
@@ -49,7 +64,7 @@
       </section>
 
       <section>
-        <h2 class"footer">Let's Connect</h2>
+        <h2 class="footer">Let's Connect</h2>
         <p class="footer">iamgeenay@gmail.com</p>
       </section>
     </div>
