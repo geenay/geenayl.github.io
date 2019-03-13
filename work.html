@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio | Geenay Laubscher | Work </title>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Geenay Laubscher | Home </title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="work.html">Work</a>
-      <a href="contact.html">Contact</a>
-    <nav>
+    <body>
+      <div class="container">
+        <nav class="nav">
+          <a href="" class="logo"></a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="work.html">work</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+        <!-- hero image -->
+        <header>
+            <h1><span style="color:#E27074">Welcome.</span><br>
+              See my Latest Work</h1>
+            <img src="./images/arrow_down.png" alt="Down Arrow" class="arrow">
+        </header>
+        <!-- Latest Works -->
+        <article class="heading">
+          <img src="./images/stroke.png" alt="Stroke" class="stroke">
+          <h2 class="heading">latest work</h2>
+        </article>
+        <!-- Projcts -->
+        <a href="project.html">
+          <article class="latest" style="background-image: url(./images/latest-works01.jpg)">
+        </article>
+      </a>
+
+        <article class="latest" style="background-image: url(./images/latest-works02.jpg)">
+        </article>
+
+        <article class="latest" style="background-image: url(./images/coming-soon.jpg)">
+        </article>
+        <!-- Project spacer -->
+        <article class="spacer">
+        </article>
+
+          <!-- Footer -->
+          <footer>
+            <h1 class="footer">LET'S<br>
+            CONNECT</h1>
+          </footer>
+          <footer>
+            <h2 class="email">info@geenay.design</h2>
+            <img src="./images/twitter.png" alt="Twitter" class="social" style="padding-right: 2.3rem">
+            <img src="./images/instagram.png" alt="Instagram" class="social">
+          </footer>
+        </div>
   </body>
 </html>
