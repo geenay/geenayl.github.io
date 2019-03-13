@@ -16,37 +16,22 @@ body {
   margin: 0 auto;
 }
 
-header {
-  width: 100%;
-  min-height: 42rem;
-  float: right;
-  padding-top: 20rem;
-  text-align: center;
-}
-
+/* 01 ---------------------------------------------------------------------- */
 article.heading {
   position: relative;
   width: 100%;
   height: 9rem;
   float: right;
   padding-left: 3rem;
+  overflow: inherit;
 }
 
-article.LogosCA {
-  position:fixed;
-  width: 100%;
-  height: 9rem;
-  float: center;
-  padding-left: 3rem;
-  background-repeat: no-repeat;
+h2.heading {
+  position: absolute;
+  top: 0;
 }
 
-article.spacer {
-  width: 100%;
-  height: 9rem;
-  float: right;
-}
-
+/* 02 ---------------------------------------------------------------------- */
 article.latest {
   background-size: contain;
   background-repeat: no-repeat;
@@ -63,6 +48,7 @@ article.latest {
   box-shadow: 1rem 1rem 3rem 0 rgba(0,0,0,0.5);
 }
 
+/* 03 ---------------------------------------------------------------------- */
 article.process {
   background-size: contain;
   background-repeat: no-repeat;
@@ -73,43 +59,6 @@ article.process {
   width: 100%;
   padding-top: 100%;
   float: left;
-}
-
-article.myriadimage {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  padding-top: 60%;
-  float: bottom;
-}
-
-footer {
-  background-color: #302D2D;
-  width: 100%;
-  min-height: 11rem;
-  float: left;
-  padding-top: 5rem;
-}
-
-h1 {
-  font-family: League Spartan;
-  text-align: center;
-  line-height: 6.1rem;
-  font-size: 6rem;
-  letter-spacing: 0.05rem;
-}
-
-h1.footer {
-  font-family: League Spartan;
-  text-align: left;
-  font-size: 6.2rem;
-  letter-spacing: 0.05rem;
-  padding-left: 3.2rem;
-
-  color: white;
 }
 
 h1.process {
@@ -127,29 +76,6 @@ h1.process {
   color: black;
 }
 
-h1.who {
-  position: absolute;
-  text-align: left;
-  padding-left: 3.2rem;
-  top: 3.2rem;
-
-  color: #302D2D;
-}
-
-h2 {
-  font-family: Mukta;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 6.1rem;
-  font-size: 3.6rem;
-  letter-spacing: 0.05rem;
-}
-
-h2.heading {
-  position: absolute;
-  top: 0;
-}
-
 h2.process {
   position: absolute;
   font-family: arial;
@@ -163,29 +89,6 @@ h2.process {
   top: 9rem;
 
   color: #8a8686;
-}
-
-h2.email {
-  font-family: Mukta;
-  text-align: right;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 2rem;
-  font-size: 2.4rem;
-  letter-spacing: 0.05rem;
-  padding-right: 3.2rem;
-
-  color: white;
-}
-
-h3 {
-  font-family: Mukta;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 8rem;
-  font-size: 2rem;
-  text-align: center;
-  letter-spacing: 0.05rem;
 }
 
 p.process {
@@ -203,45 +106,325 @@ p.process {
   color: black;
 }
 
-p.explain {
+/* 04 ---------------------------------------------------------------------- */
+article.myriadimage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: center;
   position: absolute;
-  font-family: Mukta Mahee;
+  width: 100%;
+  padding-top: 50%;
+  float: inherit;
+  margin-top: -30rem;
+}
+
+/* 05 ---------------------------------------------------------------------- */
+article.project {
+  width: 100%;
+  float: left;
+}
+
+h1.project {
+  position: absolute;
+  font-family: arial;
   font-style: normal;
   font-weight: bold;
-  line-height: 3.9rem;
-  font-size: 2,5rem;
+  text-align: left;
+  line-height: 6.8rem;
+  font-size: 3.6rem;
+  letter-spacing: 0.05rem;
+  padding-left: 3.2rem;
+  top: 3.2rem;
+
+  color: black;
+}
+
+h2.project {
+  position: relative;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  padding-left: 3.2rem;
+  /* top: 9rem; */
+
+  color: #8a8686;
+}
+
+p.project {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  line-height: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.15rem;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
-  top: 16rem;
   color: black;
-
+  padding-bottom: 2rem;
 }
 
-img.arrow {
+ol.project {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  line-height: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.15rem;
+  padding-left: 5rem;
+  padding-right: 3.2rem;
+  padding-bottom: 2rem;
   padding-top: 2rem;
-  padding-bottom: 30rem;
+  color: black;
+  list-style-type: decimal;
 }
 
+/* 06 ---------------------------------------------------------------------- */
+article.projectheading {
+  position: relative;
+  width: 100%;
+  height: 7rem;
+  float: right;
+  padding-left: 3rem;
+  overflow: hidden;
+}
+
+/* 07 ---------------------------------------------------------------------- */
+footer {
+  background-color: #302D2D;
+  width: 100%;
+  min-height: 11rem;
+  float: left;
+  padding-top: 5rem;
+}
+
+h1.footer {
+  font-family: League Spartan;
+  text-align: left;
+  font-size: 6.2rem;
+  letter-spacing: 0.05rem;
+  padding-left: 3.2rem;
+
+  color: white;
+}
+
+/* 08 ---------------------------------------------------------------------- */
+header {
+  width: 100%;
+  min-height: 42rem;
+  float: right;
+  padding-top: 18rem;
+  text-align: center;
+}
+
+/* 09 ---------------------------------------------------------------------- */
+h1 {
+  font-family: League Spartan;
+  text-align: center;
+  line-height: 6.1rem;
+  font-size: 6rem;
+  letter-spacing: 0.05rem;
+}
+
+/* 10 ---------------------------------------------------------------------- */
+
+/* 11 ---------------------------------------------------------------------- */
+article.spacer {
+  width: 100%;
+  height: 9rem;
+  float: right;
+}
+
+/* 12 ---------------------------------------------------------------------- */
+h1.who {
+  position: absolute;
+  text-align: left;
+  padding-left: 3.2rem;
+  top: 3.2rem;
+
+  color: #302D2D;
+}
+
+/* 13 ---------------------------------------------------------------------- */
+h2.email {
+  font-family: Mukta;
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.05rem;
+  padding-right: 3.2rem;
+
+  color: white;
+}
+
+/* 14 ---------------------------------------------------------------------- */
+h2 {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 6.1rem;
+  font-size: 3.6rem;
+  letter-spacing: 0.05rem;
+}
+
+/* 15 ---------------------------------------------------------------------- */
+h3 {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 8rem;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+/* 16 ---------------------------------------------------------------------- */
+img.arrow {
+  padding-top: 20rem;
+  padding-bottom: 3rem;
+}
+
+/* 17 ---------------------------------------------------------------------- */
 img.social {
   float: right;
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
+/* 18 ---------------------------------------------------------------------- */
 img.stroke {
   position: relative;
   top: 0.5rem;
   left: -0.7rem;
 }
 
-/* Media Query iPad 768px */
-@media (min-width: 768px) {
-  header {
-    min-height: 60rem;
-    padding-top: 20rem;
+/* 19 ---------------------------------------------------------------------- */
+  column70 {
+
   }
 
+  column30 {
+
+  }
+
+/* 20 ---------------------------------------------------------------------- */
+  article.swot {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+    position: relative;
+    width: 94%;
+    margin: 1%;
+    margin-bottom: 4%;
+    padding-top: 94%;
+    float: left;
+    left: 1.2rem;
+    text-align: center;
+    box-shadow: 1rem 1rem 3rem 0 rgba(0,0,0,0.5);
+  }
+
+/* 21 ---------------------------------------------------------------------- */
+  article.flows {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+    position: relative;
+    width: 94%;
+    margin: 1%;
+    margin-bottom: 4%;
+    padding-top: 94%;
+    float: left;
+    left: 1.2rem;
+    text-align: center;
+    box-shadow: 1rem 1rem 3rem 0 rgba(0,0,0,0.5);
+  }
+
+/* 22 ---------------------------------------------------------------------- */
+  article.wireframe {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+    position: relative;
+    width: 46.2%;
+    margin: 0.8%;
+    margin-bottom: 4%;
+    padding-top: 46.2%;
+    float: left;
+    left: 1.2rem;
+    text-align: center;
+    box-shadow: 1rem 1rem 3rem 0 rgba(0,0,0,0.5);
+  }
+
+/* 23 ---------------------------------------------------------------------- */
+  article.nofloat {
+    width: 100%;
+    float: none;
+  }
+
+/* 24 ---------------------------------------------------------------------- */
+  h2.research {
+    position: absolute;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    padding-left: 3.2rem;
+    top: 2rem;
+
+    color: #8a8686;
+  }
+
+  p.research {
+    position: absolute;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.15rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    top: 9rem;
+    color: black;
+  }
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* Media Query iPad 768px */
+@media (min-width: 768px) {
+
+/* 01 ---------------------------------------------------------------------- */
+  article.heading {
+    width: 100%;
+    float: right;
+    padding-left: 10rem;
+  }
+
+/* 02 ---------------------------------------------------------------------- */
+  article.latest {
+    width: 46.2%;
+    margin: 0.8%;
+    padding-top: 46.2%;
+    left: 3rem;
+  }
+
+/* 03 ---------------------------------------------------------------------- */
   h1.process {
     line-height: 6.8rem;
     padding-left: 3.2rem;
@@ -262,19 +445,6 @@ img.stroke {
     top: 16rem;
   }
 
-  article.heading {
-    width: 100%;
-    float: right;
-    padding-left: 10rem;
-  }
-
-  article.latest {
-    width: 46.2%;
-    margin: 0.8%;
-    padding-top: 46.2%;
-    left: 3rem;
-  }
-
   article.process {
     width: 50%;
     padding-top: 50%;
@@ -282,6 +452,44 @@ img.stroke {
     /* overflow: hidden; */
   }
 
+/* 04 ---------------------------------------------------------------------- */
+
+/* 05 ---------------------------------------------------------------------- */
+article.project {
+  width: 100%;
+  float: left;
+}
+
+h1.project {
+  position: absolute;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  line-height: 6.8rem;
+  font-size: 3.6rem;
+  letter-spacing: 0.05rem;
+  padding-left: 3.2rem;
+  top: 3.2rem;
+
+  color: black;
+}
+
+h2.project {
+  position: relative;
+  /* padding-left: 10rem; */
+  top: -1rem;
+
+  color: #8a8686;
+}
+
+p.project {
+  /* padding-left: 10rem; */
+}
+
+/* 06 ---------------------------------------------------------------------- */
+
+/* 07 ---------------------------------------------------------------------- */
   footer {
     width: 50%;
     min-height: 22.6rem;
@@ -292,18 +500,129 @@ img.stroke {
     padding-left: 5.2rem;
   }
 
-  img.arrow {
-    padding-top: 15rem;
-  }
-}
-
-/* Media Query Desktop 1008px */
-@media (min-width: 1008px) {
+/* 08 ---------------------------------------------------------------------- */
   header {
     min-height: 60rem;
     padding-top: 20rem;
   }
 
+/* 09 ---------------------------------------------------------------------- */
+
+/* 10 ---------------------------------------------------------------------- */
+
+/* 11 ---------------------------------------------------------------------- */
+
+/* 12 ---------------------------------------------------------------------- */
+
+/* 13 ---------------------------------------------------------------------- */
+
+/* 14 ---------------------------------------------------------------------- */
+
+/* 15 ---------------------------------------------------------------------- */
+
+/* 16 ---------------------------------------------------------------------- */
+  img.arrow {
+    padding-top: 20rem;
+  }
+
+/* 17 ---------------------------------------------------------------------- */
+
+/* 18 ---------------------------------------------------------------------- */
+
+/* 19 ---------------------------------------------------------------------- */
+  div.column100 {
+     width: 100%;
+     padding-left: 6rem;
+     padding-right: 6rem;
+  }
+
+  div.column70 {
+     float: left;
+     width: 70%;
+     padding-left: 6rem;
+     padding-right: 6rem;
+  }
+
+  div.column30 {
+    float: right;
+    width: 30%;
+  }
+
+/* 20 ---------------------------------------------------------------------- */
+  article.swot {
+    width: 30%;
+    padding-top: 30%;
+    left: 3rem;
+  }
+
+/* 21 ---------------------------------------------------------------------- */
+  article.flows {
+    width: 46.2%;
+    padding-top: 46.2%;
+    left: 3rem;
+  }
+
+/* 22 ---------------------------------------------------------------------- */
+  article.wireframe {
+    width: 23.1%;
+    padding-top: 23.1%;
+    left: 3rem;
+  }
+
+  /* 24 ---------------------------------------------------------------------- */
+    h2.research {
+      position: absolute;
+      font-family: arial;
+      font-style: normal;
+      font-weight: bold;
+      text-align: left;
+      line-height: 2.8rem;
+      font-size: 1.8rem;
+      letter-spacing: 0.2rem;
+      padding-left: 3.2rem;
+      top: 2rem;
+
+      color: #8a8686;
+    }
+
+    p.research {
+      position: absolute;
+      font-family: Mukta;
+      font-style: normal;
+      font-weight: bold;
+      text-align: left;
+      line-height: 1.8rem;
+      font-size: 1.6rem;
+      letter-spacing: 0.15rem;
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+      top: 9rem;
+      color: black;
+    }
+}
+
+ /* ---------------------------------------------------------------------- */
+ /* ---------------------------------------------------------------------- */
+
+/* Media Query Desktop 1008px */
+@media (min-width: 1008px) {
+
+/* 01 ---------------------------------------------------------------------- */
+  article.heading {
+    width: 100%;
+    float: right;
+    padding-left: 10rem;
+  }
+
+/* 02 ---------------------------------------------------------------------- */
+  article.latest {
+    width: 46.2%;
+    margin: 0.8%;
+    padding-top: 46.2%;
+    left: 3rem;
+  }
+
+/* 03 ---------------------------------------------------------------------- */
   h1.process {
     line-height: 6.8rem;
     padding-left: 3.2rem;
@@ -324,25 +643,19 @@ img.stroke {
     top: 16rem;
   }
 
-  article.heading {
-    width: 100%;
-    float: right;
-    padding-left: 10rem;
-  }
+article.process {
+      width: 50%;
+      padding-top: 50%;
+      float: left;
+    }
 
-  article.latest {
-    width: 46.2%;
-    margin: 0.8%;
-    padding-top: 46.2%;
-    left: 3rem;
-  }
+/* 04 ---------------------------------------------------------------------- */
 
-  article.process {
-    width: 50%;
-    padding-top: 50%;
-    float: left;
-  }
+/* 05 ---------------------------------------------------------------------- */
 
+/* 06 ---------------------------------------------------------------------- */
+
+/* 07 ---------------------------------------------------------------------- */
   footer {
     width: 50%;
     min-height: 22.6rem;
@@ -353,7 +666,73 @@ img.stroke {
     padding-left: 5.2rem;
   }
 
+/* 08 ---------------------------------------------------------------------- */
+  header {
+    min-height: 60rem;
+    padding-top: 20rem;
+  }
+
+/* 09 ---------------------------------------------------------------------- */
+
+/* 10 ---------------------------------------------------------------------- */
+
+/* 11 ---------------------------------------------------------------------- */
+
+/* 12 ---------------------------------------------------------------------- */
+
+/* 13 ---------------------------------------------------------------------- */
+
+/* 14 ---------------------------------------------------------------------- */
+
+/* 15 ---------------------------------------------------------------------- */
+
+/* 16 ---------------------------------------------------------------------- */
   img.arrow {
-    padding-top: 15rem;
+    padding-top: 35rem;
+  }
+
+/* 17 ---------------------------------------------------------------------- */
+
+/* 18 ---------------------------------------------------------------------- */
+
+/* 19 ---------------------------------------------------------------------- */
+
+/* 20 ---------------------------------------------------------------------- */
+
+/* 21 ---------------------------------------------------------------------- */
+
+/* 22 ---------------------------------------------------------------------- */
+
+/* 23 ---------------------------------------------------------------------- */
+
+/* 24 ---------------------------------------------------------------------- */
+  h2.research {
+    position: absolute;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    padding-left: 3.2rem;
+    top: 9rem;
+
+    color: #8a8686;
+  }
+
+  p.research {
+    position: absolute;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.15rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    top: 16rem;
+    color: black;
   }
 }
