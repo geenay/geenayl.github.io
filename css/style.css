@@ -20,7 +20,7 @@ header {
   width: 100%;
   min-height: 42rem;
   float: right;
-  padding-top: 10rem;
+  padding-top: 20rem;
   text-align: center;
 }
 
@@ -220,6 +220,7 @@ p.explain {
 
 img.arrow {
   padding-top: 2rem;
+  padding-bottom: 30rem;
 }
 
 img.social {
