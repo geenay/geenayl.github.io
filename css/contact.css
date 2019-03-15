@@ -43,4 +43,6 @@ label {
   background-color: #ffffff;
   padding: 2.0rem;
   padding-top: 20rem;
+  max width: 55rem;
+  margin: auto;
 }
