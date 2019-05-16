@@ -45,7 +45,14 @@ article.latest {
   float: left;
   left: 1.2rem;
   text-align: center;
-  box-shadow: 1rem 1rem 3rem 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
+  transition: 0.5s all;
+
+}
+
+article.latest:hover {
+    box-shadow: 0 10px 2rem 0 rgba(0,0,0,0.6);
+    transform: translateY(-5px);
 }
 
 /* 03 ---------------------------------------------------------------------- */
@@ -154,6 +161,10 @@ h2.project {
 }
 
 p.project {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
   font-family: Mukta;
   font-style: normal;
   font-weight: regular;
@@ -167,7 +178,7 @@ p.project {
 }
 
 ol.project {
-  font-family: Mukta;
+  font-family: Arial;
   font-style: normal;
   font-weight: Regular;
   text-align: left;
